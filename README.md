@@ -1,2 +1,13 @@
 # header-bidding-timer
-Header Bidding Analyser
+
+## Running
+
+```shell
+./bin/hbanalyse [dir]
+```
+
+### Example:
+
+```shell
+./bin/hbanalyse ./examples
+```

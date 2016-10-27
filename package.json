@@ -1,0 +1,26 @@
+{
+  "name": "header-bidding-timer",
+  "version": "1.0.0",
+  "description": "Header Bidding Analyser",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard ./lib"
+  },
+  "bin": "./bin/hbanalyse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennym/header-bidding-timer.git"
+  },
+  "author": "Leonard Martin <hello@lennym.co.uk>",
+  "bugs": {
+    "url": "https://github.com/lennym/header-bidding-timer/issues"
+  },
+  "homepage": "https://github.com/lennym/header-bidding-timer#readme",
+  "dependencies": {
+    "lodash.meanby": "^4.10.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "semistandard": "^9.1.0"
+  }
+}
