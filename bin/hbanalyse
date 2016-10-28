@@ -1,18 +1,7 @@
 #!/usr/bin/env node
 
 const args = require('minimist')(process.argv.slice(2));
-const path = require('path');
-
-const mean = require('lodash.meanby');
 
 const analyse = require('../');
 
-const dir = args._[0] || '.';
-
-analyse(path.resolve(process.cwd(), dir))
-  .then((timings) => {
-    const rb = mean(timings, 'rubicon') / 1e6;
-    const an = mean(timings, 'adnexus') / 1e6;
-    console.log(`Rubicon: ${rb.toFixed(3)}s`);
-    console.log(`Adnexus: ${an.toFixed(3)}s`);
-  });
+return analyse(args);
