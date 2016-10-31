@@ -16,7 +16,7 @@
 
 ### count
 
-Specifies the nuber of times to load the page
+Specifies the number of times to load the page
 
 ### url
 
