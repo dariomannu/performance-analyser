@@ -19,7 +19,7 @@
   "dependencies": {
     "lodash.meanby": "^4.10.0",
     "minimist": "^1.2.0",
-    "timeliner": "0.0.3"
+    "timeliner": "^0.1.0"
   },
   "devDependencies": {
     "semistandard": "^9.1.0"
