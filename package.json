@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/lennym/header-bidding-timer#readme",
   "dependencies": {
+    "babar": "0.0.3",
     "lodash.meanby": "^4.10.0",
     "minimist": "^1.2.0",
-    "timeliner": "0.0.3"
+    "timeliner": "^0.4.0"
   },
   "devDependencies": {
     "semistandard": "^9.1.0"
