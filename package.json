@@ -1,12 +1,13 @@
 {
-  "name": "header-bidding-timer",
+  "name": "performance-analyser",
   "version": "1.0.0",
-  "description": "Header Bidding Analyser",
+  "description": "Performance Analyser",
   "main": "index.js",
   "scripts": {
-    "test": "semistandard ./lib"
+    "test": "semistandard ./lib",
+    "analyse": "./bin/analyse"
   },
-  "bin": "./bin/hbanalyse",
+  "bin": "./bin/analyse",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lennym/header-bidding-timer.git"
