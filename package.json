@@ -10,13 +10,13 @@
   "bin": "./bin/analyse",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lennym/header-bidding-timer.git"
+    "url": "git+https://github.com/lennym/performance-analyser.git"
   },
   "author": "Leonard Martin <hello@lennym.co.uk>",
   "bugs": {
-    "url": "https://github.com/lennym/header-bidding-timer/issues"
+    "url": "https://github.com/lennym/performance-analyser/issues"
   },
-  "homepage": "https://github.com/lennym/header-bidding-timer#readme",
+  "homepage": "https://github.com/lennym/performance-analyser#readme",
   "dependencies": {
     "babar": "0.0.3",
     "lodash.meanby": "^4.10.0",
