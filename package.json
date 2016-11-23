@@ -19,6 +19,7 @@
   "homepage": "https://github.com/lennym/performance-analyser#readme",
   "dependencies": {
     "babar": "0.0.3",
+    "bluebird": "^3.4.6",
     "lodash.meanby": "^4.10.0",
     "minimist": "^1.2.0",
     "timeliner": "^0.4.0"
